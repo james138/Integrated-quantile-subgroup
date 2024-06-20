@@ -1,5 +1,6 @@
 # Integrated-quantile-subgroup
 ## Example 1
+It is recommended to use 'parpool' to speed up the execution on multi-core machines.
 ```
 %setting 
 n=200;tau=0.5;f=5;
