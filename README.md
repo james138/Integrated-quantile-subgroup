@@ -40,12 +40,6 @@ record_RMSE_3q=zeros(iter,6);
 record_noclass_3q=zeros(iter,1);
 record_ARI_RI_3q=zeros(iter,2);
 
-record_gamma_3q_differ_known=zeros(iter,2);
-record_time_3q_differ_known=zeros(iter,1);
-record_RMSE_3q_differ_known=zeros(iter,6);
-record_noclass_3q_differ_known=zeros(iter,1);
-record_ARI_RI_3q_differ_known=zeros(iter,2);
-record_Prop_FN_FP_3q_differ_known=zeros(iter,3);
 fprintf('n= %d \n',n);
 
 
