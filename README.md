@@ -1,6 +1,6 @@
 # Integrated-quantile-subgroup
 ## Example 1
-
+(```)
 %setting 
 n=200;tau=0.5;f=5;
 p=2;q=2;
@@ -219,3 +219,4 @@ col_perK(5)=string(round(sum(record_noclass_3q_differ(:,1)==k)/iter*100,1))+'\%'
 col_perK(6)=' ';
 
 T = table(col_alpha1,col_alpha2,col_alpha3,col_beta1,col_beta2,col_beta3,col_RI,col_ARI,col_K,col_perK);
+(```)
