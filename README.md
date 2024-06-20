@@ -18,7 +18,7 @@ k=2;K=10;
 true_id=[ones(1,n/2),ones(1,n/2)*2];
 E=eye(n)-ones(n,1)*ones(1,n)/n;
 % output
-iter=2; 
+iter=200; 
 RMSE_ora=zeros(iter,6);
 
 record_gamma_1q=zeros(iter,1);
